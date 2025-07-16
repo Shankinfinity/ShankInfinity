@@ -1,0 +1,123 @@
+
+:root {
+    --header-height: 40px;
+    --navbar-height: 50px;
+    --main-bg: #001222;
+    --text-color: white;
+    --submenu-bg: #555;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    height: var(--header-height);
+    width: 100%;
+    background: black;
+    color: var(--text-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.Top-page {
+    margin: 0 10%;
+    height: var(--header-height);
+}
+
+
+.social-media-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    flex: 1;
+}
+.search-button input {
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.navbar {
+    height: var(--navbar-height);
+    background-color: var(--main-bg);
+    display: flex;
+    align-items: center;
+    background-color: #001222;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    z-index: 1030;
+    width: 100vw;
+}
+.navbar .nav-link {
+    color: #ffc107;
+}
+.missions-dropdown .dropdown-menu {
+    max-height: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: white !important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        position: fixed;
+        top: var(--header-height); /* adjust to match your .header height */
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #001222; /* or your desired mobile menu background */
+        z-index: 2000;
+        padding: 1rem;
+        overflow-y: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar-collapse.collapsing {
+        transition: none;
+    }
+
+    .navbar-collapse.show {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .menu-list {
+        flex-direction: row;
+    }
+}
+.Megrim {
+    font-family: 'Megrim', cursive !important;
+}
