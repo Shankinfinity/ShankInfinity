@@ -118,3 +118,12 @@ body {
         flex-direction: row;
     }
 }
+.megrim-regular {
+    font-family: "Megrim", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.Megrim {
+    font-family: 'Megrim', cursive !important;
+}
+
