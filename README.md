@@ -1,6 +1,6 @@
 # 🌌 ShankInfinity — Personal Website of Shankar Dahal
 
-Welcome to the source code for [ShankInfinity](https://www.shankinfinity.infy.uk) or (https://shankinfinity.github.io/ShankInfinity/)— my personal website where I share my journey as a **student of Physics and Mathematics**, and also showcase my **projects in web development, data science, and machine learning**.
+Welcome to the source code for [ShankInfinity](  https://www.shankinfinity.infy.uk)  or https://shankinfinity.github.io/ShankInfinity/ — my personal website where I share my journey as a **student of Physics and Mathematics**, and also showcase my **projects in web development, data science, and machine learning**.
 
 <!--
 **Shankinfinity/ShankInfinity** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
