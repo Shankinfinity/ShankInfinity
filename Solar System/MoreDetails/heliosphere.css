@@ -125,17 +125,3 @@ body {
 .Megrim {
     font-family: 'Megrim', cursive !important;
 }
-
-section.banner {
-    position: relative;
-    width: 100%;
-    height: 1125px;
-    overflow: hidden;
-}
-
-section.banner img {
-    width: 2000px;
-    height: 1125px;
-    object-fit: cover;
-}
-
